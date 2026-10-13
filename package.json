@@ -1,0 +1,21 @@
+{
+    "name": "places-app",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev:mobile": "npm run start --workspace=mobile",
+        "dev:api": "npm run start:dev --workspace=api",
+        "build": "npm run build --workspaces",
+        "test": "npm run test --workspaces"
+    },
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs"
+}
